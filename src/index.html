@@ -1,12 +1,2264 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>webpack starterkit</title>
+  <title>Wing starter kit</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-  <h1>webpack starter</h1>
-  <p>✨ A lightweight foundation for your next webpack based frontend project.</p>
+
+
+  <div class="container" style="width: 960px">
+
+    <div class="row">
+      <div class="col-5">
+        <div class="card border bg-light rounded-10">
+          <div class="card-body">
+            <div class="d-flex align-items-center">
+              <div class="mr-10">
+                <img class="width-40 height-40 rounded-circle" src="https://randomuser.me/api/portraits/women/2.jpg" alt="User image">
+              </div>
+              <div class="d-flex align-items-start flex-column">
+                <h6 class="my-0"><b>Michella Green</b><span class="badge ml-5 bg-primary">+6</span></h6>
+                <p class="my-0">Whay Can i do right now?</p>
+              </div>
+              <div class="ms-auto text-secondary"><b>11:08 am</b></div>
+            </div>
+          </div>
+        </div>
+        <div class="card border bg-light rounded-10">
+          <div class="card-body">
+            <div class="d-flex align-items-center">
+              <div class="mr-10">
+                <img class="width-40 height-40 rounded-circle" src="https://randomuser.me/api/portraits/women/2.jpg" alt="User image">
+              </div>
+              <div class="d-flex align-items-start flex-column">
+                <h6 class="my-0"><b>Michella Green</b><span class="badge ml-5 bg-primary">+6</span></h6>
+                <p class="my-0">Whay Can i do right now?</p>
+              </div>
+              <div class="ms-auto text-secondary"><b>11:08 am</b></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="d-flex flex-column">
+      <a href="" class="btn btn-light d-flex mb-5 align-items-center"><i class="fas fa-caret-right mr-10"></i>All Categories</a>
+      <a href="" class="btn btn-light d-flex mb-5 align-items-center"><i class="fas fa-caret-right mr-10"></i>Art</a>
+      <a href="" class="btn btn-light d-flex mb-5 align-items-center"><i class="fas fa-caret-right mr-10"></i>Books</a>
+      <a href="" class="btn btn-light d-flex mb-5 align-items-center"><i class="fas fa-caret-right mr-10"></i>Food</a>
+      <a href="" class="btn btn-light d-flex mb-5 align-items-center"><i class="fas fa-caret-right mr-10"></i>Sports</a>
+      <a href="" class="btn btn-light d-flex mb-5 align-items-center"><i class="fas fa-caret-right mr-10"></i>Films</a>
+      <a href="" class="btn btn-light d-flex mb-5 align-items-center"><i class="fas fa-caret-right mr-10"></i>Awards</a>
+      <a href="" class="btn btn-light d-flex mb-5 align-items-center"><i class="fas fa-caret-right mr-10"></i>Men</a>
+      <a href="" class="btn btn-light d-flex mb-5 align-items-center"><i class="fas fa-caret-right mr-10"></i>Parties</a>
+      <a href="" class="btn btn-light d-flex mb-5 align-items-center"><i class="fas fa-caret-right mr-10"></i>Technology</a>
+      <a href="" class="btn btn-light d-flex mb-5 align-items-center"><i class="fas fa-caret-right mr-10"></i>Science</a>
+      <a href="" class="btn btn-light d-flex mb-5 align-items-center"><i class="fas fa-caret-right mr-10"></i>Women</a>
+      <a href="" class="btn btn-light d-flex mb-5 align-items-center"><i class="fas fa-caret-right mr-10"></i>Music</a>
+      <a href="" class="btn btn-light d-flex mb-5 align-items-center"><i class="fas fa-caret-right mr-10"></i>Comedy</a>
+      <a href="" class="btn btn-light d-flex mb-5 align-items-center"><i class="fas fa-caret-right mr-10"></i>Show</a>
+    </div>
+
+
+    <div class="row">
+      <div class="col-12">
+        <div class="d-flex align-items-center border-bottom mt-4">
+          <div class="d-flex flex-column">
+            <h4 class="m-0 "><b>Invoices</b></h4>
+            <p class="p-0 text-secondary">Total 15 (Last updates 1 hr ago)</p>
+          </div>
+          <div class="d-flex align-items-center ms-auto">
+            <div class="input-group">
+              <input type="text" class="form-control height-30 border-0" placeholder=""
+                aria-label="Recipient's username" aria-describedby="basic-addon2">
+              <span class="input-group-text bg-white border-0" id="basic-addon2">
+                <i class="fa fa-search"></i>
+              </span>
+            </div>
+            <button type="button"
+              class="btn btn-white d-flex align-items-center justify-content-center width-50 height-30 ms-2">Add</button>
+            <button type="button"
+              class="btn btn-light d-flex align-items-center justify-content-center width-150 height-40 ms-2">invoice</button>
+            <button type="button"
+              class="btn btn-dark d-flex align-items-center justify-content-center width-150 height-30 ms-2">Export
+            </button>
+
+          </div>
+        </div>
+        <div class="table-responsive">
+          <table class="table align-middle">
+            <tbody>
+              <tr>
+                <td>
+                  <h6 class="m-0 text-secondary"><b> Id</b></h6>
+                </td>
+                <td>
+                  <h6 class="m-0 text-secondary"><b>Client details</b></h6>
+                </td>
+                <td>
+                  <h6 class="m-0 text-secondary"><b>Date</b></h6>
+                </td>
+                <td>
+                  <h6 class="m-0 text-secondary "><b>Amount</b></h6>
+                </td>
+                <td>
+                  <h6 class="m-0 text-secondary"><b>Status</b></h6>
+                </td>
+                <td>
+                  <h6 class="m-0 text-secondary"><b>Action</b></h6>
+                </td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <td>A5210</td>
+                <td>
+                  <div class="d-flex align-items-center">
+                    <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="user-image"
+                      class="width-40 height-40 avatar-sm rounded-circle me-2">
+                    <div class="d-flex flex-column">
+                      <h6 class="m-0 text-primary"><b>South Shyanne</b></h6>
+                      <p class="m-0 text-secondary">south.shyanne@example.com</p>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex flex-column">
+                    <p class="m-0 text-secondary">Invoice Date:12 Aug 2020</p>
+                    <p class="m-0 text-secondary">Due Date:22 Aug 2020</p>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex flex-column">
+                    <p class="m-0 text-secondary">$1200</p>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex flex-column">
+                    <button type="button" class="btn btn-success">Done</button>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex align-items-center justify-content-end">
+                    <button type="button"
+                      class="btn bg-light d-flex align-items-center justify-content-center  btn-sm waves-effect width-30 height-30">
+                      <i class="fas fa-envelope"></i>
+                    </button>
+                    <button type="button"
+                      class="btn ms-3 bg-light d-flex align-items-center justify-content-center  btn-sm waves-effect width-30 height-30">
+                      <i class="fa fa-pencil"></i>
+                    </button>
+                    <button type="button"
+                      class="btn ms-3 bg-light d-flex align-items-center justify-content-center  btn-sm waves-effect width-30 height-30">
+                      <i class="fas fa-trash"></i>
+                    </button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>A5210</td>
+                <td>
+                  <div class="d-flex align-items-center">
+                    <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="user-image"
+                      class="width-40 height-40 avatar-sm rounded-circle me-2">
+                    <div class="d-flex flex-column">
+                      <h6 class="m-0 text-primary"><b>South Shyanne</b></h6>
+                      <p class="m-0 text-secondary">south.shyanne@example.com</p>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex flex-column">
+                    <p class="m-0 text-secondary">Invoice Date:12 Aug 2020</p>
+                    <p class="m-0 text-secondary">Due Date:22 Aug 2020</p>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex flex-column">
+                    <p class="m-0 text-secondary">$1200</p>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex flex-column">
+                    <button type="button" class="btn btn-success">Done</button>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex align-items-center justify-content-end">
+                    <button type="button"
+                      class="btn bg-light d-flex align-items-center justify-content-center  btn-sm waves-effect width-30 height-30">
+                      <i class="fas fa-envelope"></i>
+                    </button>
+                    <button type="button"
+                      class="btn ms-3 bg-light d-flex align-items-center justify-content-center  btn-sm waves-effect width-30 height-30">
+                      <i class="fa fa-pencil"></i>
+                    </button>
+                    <button type="button"
+                      class="btn ms-3 bg-light d-flex align-items-center justify-content-center  btn-sm waves-effect width-30 height-30">
+                      <i class="fas fa-trash"></i>
+                    </button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>A5210</td>
+                <td>
+                  <div class="d-flex align-items-center">
+                    <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="user-image"
+                      class="width-40 height-40 avatar-sm rounded-circle me-2">
+                    <div class="d-flex flex-column">
+                      <h6 class="m-0 text-primary"><b>South Shyanne</b></h6>
+                      <p class="m-0 text-secondary">south.shyanne@example.com</p>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex flex-column">
+                    <p class="m-0 text-secondary">Invoice Date:12 Aug 2020</p>
+                    <p class="m-0 text-secondary">Due Date:22 Aug 2020</p>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex flex-column">
+                    <p class="m-0 text-secondary">$1200</p>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex flex-column">
+                    <button type="button" class="btn btn-success">Done</button>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex align-items-center justify-content-end">
+                    <button type="button"
+                      class="btn bg-light d-flex align-items-center justify-content-center  btn-sm waves-effect width-30 height-30">
+                      <i class="fas fa-envelope"></i>
+                    </button>
+                    <button type="button"
+                      class="btn ms-3 bg-light d-flex align-items-center justify-content-center  btn-sm waves-effect width-30 height-30">
+                      <i class="fa fa-pencil"></i>
+                    </button>
+                    <button type="button"
+                      class="btn ms-3 bg-light d-flex align-items-center justify-content-center  btn-sm waves-effect width-30 height-30">
+                      <i class="fas fa-trash"></i>
+                    </button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>A5210</td>
+                <td>
+                  <div class="d-flex align-items-center">
+                    <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="user-image"
+                      class="width-40 height-40 avatar-sm rounded-circle me-2">
+                    <div class="d-flex flex-column">
+                      <h6 class="m-0 text-primary"><b>South Shyanne</b></h6>
+                      <p class="m-0 text-secondary">south.shyanne@example.com</p>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex flex-column">
+                    <p class="m-0 text-secondary">Invoice Date:12 Aug 2020</p>
+                    <p class="m-0 text-secondary">Due Date:22 Aug 2020</p>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex flex-column">
+                    <p class="m-0 text-secondary">$1200</p>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex flex-column">
+                    <button type="button" class="btn btn-success">Done</button>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex align-items-center justify-content-end">
+                    <button type="button"
+                      class="btn bg-light d-flex align-items-center justify-content-center  btn-sm waves-effect width-30 height-30">
+                      <i class="fas fa-envelope"></i>
+                    </button>
+                    <button type="button"
+                      class="btn ms-3 bg-light d-flex align-items-center justify-content-center  btn-sm waves-effect width-30 height-30">
+                      <i class="fa fa-pencil"></i>
+                    </button>
+                    <button type="button"
+                      class="btn ms-3 bg-light d-flex align-items-center justify-content-center  btn-sm waves-effect width-30 height-30">
+                      <i class="fas fa-trash"></i>
+                    </button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>A5210</td>
+                <td>
+                  <div class="d-flex align-items-center">
+                    <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="user-image"
+                      class="width-40 height-40 avatar-sm rounded-circle me-2">
+                    <div class="d-flex flex-column">
+                      <h6 class="m-0 text-primary"><b>South Shyanne</b></h6>
+                      <p class="m-0 text-secondary">south.shyanne@example.com</p>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex flex-column">
+                    <p class="m-0 text-secondary">Invoice Date:12 Aug 2020</p>
+                    <p class="m-0 text-secondary">Due Date:22 Aug 2020</p>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex flex-column">
+                    <p class="m-0 text-secondary">$1200</p>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex flex-column">
+                    <button type="button" class="btn btn-success">Done</button>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex align-items-center justify-content-end">
+                    <button type="button"
+                      class="btn bg-light d-flex align-items-center justify-content-center  btn-sm waves-effect width-30 height-30">
+                      <i class="fas fa-envelope"></i>
+                    </button>
+                    <button type="button"
+                      class="btn ms-3 bg-light d-flex align-items-center justify-content-center  btn-sm waves-effect width-30 height-30">
+                      <i class="fa fa-pencil"></i>
+                    </button>
+                    <button type="button"
+                      class="btn ms-3 bg-light d-flex align-items-center justify-content-center  btn-sm waves-effect width-30 height-30">
+                      <i class="fas fa-trash"></i>
+                    </button>
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <td>A5210</td>
+                <td>
+                  <div class="d-flex align-items-center">
+                    <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="user-image"
+                      class="width-40 height-40 avatar-sm rounded-circle me-2">
+                    <div class="d-flex flex-column">
+                      <h6 class="m-0 text-primary"><b>South Shyanne</b></h6>
+                      <p class="m-0 text-secondary">south.shyanne@example.com</p>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex flex-column">
+                    <p class="m-0 text-secondary">Invoice Date:12 Aug 2020</p>
+                    <p class="m-0 text-secondary">Due Date:22 Aug 2020</p>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex flex-column">
+                    <p class="m-0 text-secondary">$1200</p>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex flex-column">
+                    <button type="button" class="btn btn-success">Done</button>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex align-items-center justify-content-end">
+                    <button type="button"
+                      class="btn bg-light d-flex align-items-center justify-content-center  btn-sm waves-effect width-30 height-30">
+                      <i class="fas fa-envelope"></i>
+                    </button>
+                    <button type="button"
+                      class="btn ms-3 bg-light d-flex align-items-center justify-content-center  btn-sm waves-effect width-30 height-30">
+                      <i class="fa fa-pencil"></i>
+                    </button>
+                    <button type="button"
+                      class="btn ms-3 bg-light d-flex align-items-center justify-content-center  btn-sm waves-effect width-30 height-30">
+                      <i class="fas fa-trash"></i>
+                    </button>
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <td>A5210</td>
+                <td>
+                  <div class="d-flex align-items-center">
+                    <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="user-image"
+                      class="width-40 height-40 avatar-sm rounded-circle me-2">
+                    <div class="d-flex flex-column">
+                      <h6 class="m-0 text-primary"><b>South Shyanne</b></h6>
+                      <p class="m-0 text-secondary">south.shyanne@example.com</p>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex flex-column">
+                    <p class="m-0 text-secondary">Invoice Date:12 Aug 2020</p>
+                    <p class="m-0 text-secondary">Due Date:22 Aug 2020</p>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex flex-column">
+                    <p class="m-0 text-secondary">$1200</p>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex flex-column">
+                    <button type="button" class="btn btn-success">Done</button>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex align-items-center justify-content-end">
+                    <button type="button"
+                      class="btn bg-light d-flex align-items-center justify-content-center  btn-sm waves-effect width-30 height-30">
+                      <i class="fas fa-envelope"></i>
+                    </button>
+                    <button type="button"
+                      class="btn ms-3 bg-light d-flex align-items-center justify-content-center  btn-sm waves-effect width-30 height-30">
+                      <i class="fa fa-pencil"></i>
+                    </button>
+                    <button type="button"
+                      class="btn ms-3 bg-light d-flex align-items-center justify-content-center  btn-sm waves-effect width-30 height-30">
+                      <i class="fas fa-trash"></i>
+                    </button>
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <td>A5210</td>
+                <td>
+                  <div class="d-flex align-items-center">
+                    <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="user-image"
+                      class="width-40 height-40 avatar-sm rounded-circle me-2">
+                    <div class="d-flex flex-column">
+                      <h6 class="m-0 text-primary"><b>South Shyanne</b></h6>
+                      <p class="m-0 text-secondary">south.shyanne@example.com</p>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex flex-column">
+                    <p class="m-0 text-secondary">Invoice Date:12 Aug 2020</p>
+                    <p class="m-0 text-secondary">Due Date:22 Aug 2020</p>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex flex-column">
+                    <p class="m-0 text-secondary">$1200</p>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex flex-column">
+                    <button type="button" class="btn btn-success">Done</button>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex align-items-center justify-content-end">
+                    <button type="button"
+                      class="btn bg-light d-flex align-items-center justify-content-center  btn-sm waves-effect width-30 height-30">
+                      <i class="fas fa-envelope"></i>
+                    </button>
+                    <button type="button"
+                      class="btn ms-3 bg-light d-flex align-items-center justify-content-center  btn-sm waves-effect width-30 height-30">
+                      <i class="fa fa-pencil"></i>
+                    </button>
+                    <button type="button"
+                      class="btn ms-3 bg-light d-flex align-items-center justify-content-center  btn-sm waves-effect width-30 height-30">
+                      <i class="fas fa-trash"></i>
+                    </button>
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <td>A5210</td>
+                <td>
+                  <div class="d-flex align-items-center">
+                    <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="user-image"
+                      class="width-40 height-40 avatar-sm rounded-circle me-2">
+                    <div class="d-flex flex-column">
+                      <h6 class="m-0 text-primary"><b>South Shyanne</b></h6>
+                      <p class="m-0 text-secondary">south.shyanne@example.com</p>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex flex-column">
+                    <p class="m-0 text-secondary">Invoice Date:12 Aug 2020</p>
+                    <p class="m-0 text-secondary">Due Date:22 Aug 2020</p>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex flex-column">
+                    <p class="m-0 text-secondary">$1200</p>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex flex-column">
+                    <button type="button" class="btn btn-success">Done</button>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex align-items-center justify-content-end">
+                    <button type="button"
+                      class="btn bg-light d-flex align-items-center justify-content-center  btn-sm waves-effect width-30 height-30">
+                      <i class="fas fa-envelope"></i>
+                    </button>
+                    <button type="button"
+                      class="btn ms-3 bg-light d-flex align-items-center justify-content-center  btn-sm waves-effect width-30 height-30">
+                      <i class="fa fa-pencil"></i>
+                    </button>
+                    <button type="button"
+                      class="btn ms-3 bg-light d-flex align-items-center justify-content-center  btn-sm waves-effect width-30 height-30">
+                      <i class="fas fa-trash"></i>
+                    </button>
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <td>A5210</td>
+                <td>
+                  <div class="d-flex align-items-center">
+                    <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="user-image"
+                      class="width-40 height-40 avatar-sm rounded-circle me-2">
+                    <div class="d-flex flex-column">
+                      <h6 class="m-0 text-primary"><b>South Shyanne</b></h6>
+                      <p class="m-0 text-secondary">south.shyanne@example.com</p>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex flex-column">
+                    <p class="m-0 text-secondary">Invoice Date:12 Aug 2020</p>
+                    <p class="m-0 text-secondary">Due Date:22 Aug 2020</p>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex flex-column">
+                    <p class="m-0 text-secondary">$1200</p>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex flex-column">
+                    <button type="button" class="btn btn-success">Done</button>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex align-items-center justify-content-end">
+                    <button type="button"
+                      class="btn bg-light d-flex align-items-center justify-content-center  btn-sm waves-effect width-30 height-30">
+                      <i class="fas fa-envelope"></i>
+                    </button>
+                    <button type="button"
+                      class="btn ms-3 bg-light d-flex align-items-center justify-content-center  btn-sm waves-effect width-30 height-30">
+                      <i class="fa fa-pencil"></i>
+                    </button>
+                    <button type="button"
+                      class="btn ms-3 bg-light d-flex align-items-center justify-content-center  btn-sm waves-effect width-30 height-30">
+                      <i class="fas fa-trash"></i>
+                    </button>
+                  </div>
+                </td>
+              </tr>
+
+
+
+
+
+
+              </button>
+        </div>
+        </td>
+        </tr>
+
+
+
+
+        </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-4 border ">
+        <h5 class="m-0 border-bottom pb-3 justify-content-center"><b> Recent Followers</b></h5>
+        <input type="email" class="form-control mt-20" id="exampleFormControlInput1" placeholder="Search...">
+
+        <div class="d-flex">
+          <div class="img width-40 height-40 border rounded-40 mt-20">
+
+          </div>
+          <div class="d-flex mt-4 ms-3 flex-column ">
+            <h6 class="m-0"><b> Michelle Green</b></h5>
+              <small class="m-0 text-muted">Designer, Blogger</small>
+          </div>
+
+        </div>
+        <div class="d-flex">
+          <div class="img width-40 height-40 border rounded-40 mt-20">
+
+          </div>
+          <div class="d-flex mt-4 ms-3 flex-column ">
+            <h6 class="m-0"><b>Folisise Chosielie</b></h5>
+              <small class="m-0  text-primary"><b>Java Developer</b></small>
+          </div>
+
+        </div>
+        <div class="d-flex">
+          <div class="img width-40 height-40 border rounded-40 mt-20">
+
+          </div>
+          <div class="d-flex mt-4 ms-3 flex-column ">
+            <h6 class="m-0"><b>Terry Carter</b></h5>
+              <small class="m-0 text-primary"><b> Designer, Blogger</b></small>
+          </div>
+
+        </div>
+        <div class="d-flex">
+          <div class="img width-40 height-40 border rounded-40 mt-20">
+
+          </div>
+          <div class="d-flex mt-4 ms-3 flex-column ">
+            <h6 class="m-0"><b>Michelle Schultz</b></h5>
+              <small class="m-0 text-primary"><b> Writter, Mag Editor</b></small>
+          </div>
+
+        </div>
+
+
+      </div>
+
+
+      <div class="col-4 border">
+        <h5 class="m-0 border-bottom pb-3"><b> Users Overview</b></h5>
+        <div class="row">
+          <div class="col-6">
+            <small class="m-0">New Users</small>
+            <h3 class="m-0"><b> 2,025</b></h3>
+          </div>
+          <div class="col-6">
+            <small class="m-0">Return Victors</small>
+            <h3 class="m-0"><b> 1,254</b></h5>
+          </div>
+        </div>
+        <hr>
+        <div class="card p-1 rounded">
+          <div class="d-flex align-items-center">
+            <div class="d-flex flex-column">
+              <p class="text-muted m-0"><b>New Users</b></h6>
+            </div>
+            <div class="ms-auto display-4" style="font-size: 10px;">77%</div>
+          </div>
+          <div class="mt-5">
+            <div class="progress" style="height: 5px;">
+              <div class="progress-bar bg-success role=" progressbar" style="width: 75%;" aria-valuenow="25"
+                aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+        <div class="card p-1 rounded">
+          <div class="d-flex align-items-center">
+            <div class="d-flex flex-column">
+              <p class="text-muted m-0 pt-3"><b>Return Visitors</b></h6>
+            </div>
+            <div class="ms-auto display-4" style="font-size: 10px;">50%</div>
+          </div>
+          <div class="mt-5">
+            <div class="progress" style="height: 5px;">
+              <div class="progress-bar bg-warning role=" progressbar" style="width: 50%;" aria-valuenow="25"
+                aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+        <div class="card p-1 rounded">
+          <div class="d-flex align-items-center">
+            <div class="d-flex flex-column">
+              <p class="text-muted m-0 pt-3"><b>Engagement</b></h6>
+            </div>
+            <div class="ms-auto display-4" style="font-size: 10px;">23%</div>
+          </div>
+          <div class="mt-5">
+            <div class="progress" style="height: 5px;">
+              <div class="progress-bar bg-primary role=" progressbar" style="width: 23%;" aria-valuenow="25"
+                aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex mt-3">
+          <p>The total number of Page Impressions within the date range</p>
+          <a class="text-decoration-none" href="">View more</a>
+        </div>
+
+      </div>
+      <div class="col-4 border">
+        <h5 class="m-0 border-bottom pb-3"><b>Top Countries</b></h5>
+        <div class="card p-1 rounded">
+          <div class="d-flex align-items-center">
+            <div class="d-flex flex-column">
+              <p class="text-muted m-0 pt-2"><b>USA</b></h6>
+            </div>
+            <div class="ms-auto display-4 text-muted pt-2" style="font-size: 10px;">$6425</div>
+          </div>
+          <div class="mt-5">
+            <div class="progress" style="height: 5px; width: 200px;">
+              <div class="progress-bar bg-primary role=" progressbar" style="width: 80%; " aria-valuenow="25"
+                aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+        <div class="card p-1 rounded">
+          <div class="d-flex align-items-center">
+            <div class="d-flex flex-column">
+              <p class="text-muted m-0 pt-2"><b>Poland</b></h6>
+            </div>
+            <div class="ms-auto display-4 text-muted mt-2" style="font-size: 10px;">$5582</div>
+          </div>
+          <div class="mt-5">
+            <div class="progress" style="height: 5px; width: 200px;">
+              <div class="progress-bar bg-primary role=" progressbar" style="width: 70%; " aria-valuenow="25"
+                aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+        <div class="card p-1 rounded">
+          <div class="d-flex align-items-center">
+            <div class="d-flex flex-column">
+              <p class="text-muted m-0 pt-2"><b>Germany</b></h6>
+            </div>
+            <div class="ms-auto display-4 text-muted mt-2" style="font-size: 10px;">$4587</div>
+          </div>
+          <div class="mt-5">
+            <div class="progress" style="height: 5px; width: 200px;">
+              <div class="progress-bar bg-primary role=" progressbar" style="width: 60%; " aria-valuenow="25"
+                aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+        <div class="card p-1 rounded">
+          <div class="d-flex align-items-center">
+            <div class="d-flex flex-column">
+              <p class="text-muted m-0 pt-2"><b>Russia</b></h6>
+            </div>
+            <div class="ms-auto display-4 text-muted mt-2" style="font-size: 10px;">$2520</div>
+          </div>
+          <div class="mt-5">
+            <div class="progress" style="height: 5px; width: 200px;">
+              <div class="progress-bar bg-primary role=" progressbar" style="width: 50%; " aria-valuenow="25"
+                aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+        <div class="card p-1 rounded">
+          <div class="d-flex align-items-center">
+            <div class="d-flex flex-column">
+              <p class="text-muted m-0 pt-2"><b>Australia</b></h6>
+            </div>
+            <div class="ms-auto display-4 text-muted mt-2" style="font-size: 10px;">$1899</div>
+          </div>
+          <div class="mt-5">
+            <div class="progress" style="height: 5px; width: 200px;">
+              <div class="progress-bar bg-primary role=" progressbar" style="width: 40%; " aria-valuenow="25"
+                aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+        <div class="card p-1 rounded">
+          <div class="d-flex align-items-center">
+            <div class="d-flex flex-column">
+              <p class="text-muted m-0 pt-1"><b>Great Britain </b></h6>
+            </div>
+            <div class="ms-auto display-4 text-muted mt-2" style="font-size: 10px;">$1056</div>
+          </div>
+          <div class="mt-5">
+            <div class="progress" style="height: 5px; width: 200px;">
+              <div class="progress-bar bg-primary role=" progressbar" style="width: 30%; " aria-valuenow="25"
+                aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-body d-flex justify-content-center flex-column align-items-center">
+          <div class="w-50 mt-5">
+            <div class="text-center mb-5">
+              <h3>Sign in</h3>
+              <small class="text-secondary">Make it simple, but significant</small>
+            </div>
+
+            <div class="input-group mb-2 ">
+              <input type="text" class="form-control" placeholder="Enter you email" aria-label="Enter you Email"
+                aria-describedby="basic-addon1">
+            </div>
+
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Enter you password" aria-label="Enter you password"
+                aria-describedby="basic-addon1">
+            </div>
+
+            <div class="d-flex">
+              <div class="form-check mt-1">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label text-secondary" for="flexCheckDefault">Remember me</label>
+              </div>
+              <button type="button" class=" ms-auto  text-decoration-none btn btn-link">Reset password</button>
+            </div>
+            <div class="text-center mt-5">
+              <button type="button" class="btn btn-success">Sign in</button>
+            </div>
+            <div class="text-center mt-3">
+              <small class="text-center  mt-3">Don't have an account yet <a href="#" class="text-decoration-none">Sign
+                  in.</a>
+              </small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row border">
+        <div class="card">
+          <div class="card-header">
+            <div class="row">
+              <div class="col-9">
+                <div class="d-flex flex-column">
+                  <h5 class="m-0"> <b> File manager</b></h5>
+                  <div class="text-secondary">
+                    Last update your drives:17 March 2021
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="ml-100  d-flex align-items-center">
+                  <i class="fa fa-search"></i>
+                  <div class="dropdown ml-20 align-items-end">
+                    <button class="btn border  dropdown-toggle" type="button" id="dropdownMenuButton1"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      New
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="row">
+              <div class="col-3">
+                <div class="card border p-3 rounded">
+                  <div class="d-flex align-items-center">
+                    <div class="d-flex flex-column">
+                      <h5 class="m-0"><b>Google drive</b></h5>
+                      <h6 class="text-muted m-0">15GB(Basic Plan)</h6>
+                    </div>
+                  </div>
+                  <div class="mt-25">
+                    <div class="progress " style="height: 4px;">
+                      <div class="progress-bar bg-danger" role="progressbar" style="width: 80%;" aria-valuenow="25"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card border p-3 rounded">
+                  <div class="d-flex align-items-center">
+                    <div class="d-flex flex-column">
+                      <h5 class="m-0"><b>Dropbox</b></h5>
+                      <h6 class="text-muted m-0">2GB(Free Plan)</h6>
+                    </div>
+                  </div>
+                  <div class="mt-25">
+                    <div class="progress" style="height: 4px;">
+                      <div class="progress-bar bg-warnign" role="progressbar" style="width: 50%;" aria-valuenow="25"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card border p-3 rounded">
+                  <div class="d-flex align-items-center">
+                    <div class="d-flex flex-column">
+                      <h5 class="m-0"><b>OneDrive</b></h5>
+                      <h6 class="text-muted m-0">1Tb(Regular Plan)</h6>
+                    </div>
+                  </div>
+                  <div class="mt-25">
+                    <div class="progress" style="height: 4px;">
+                      <div class="progress-bar bg-success" role="progressbar" style="width: 25%;" aria-valuenow="25"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card border p-3 rounded">
+                  <div class="d-flex align-items-center">
+                    <div class="d-flex flex-column">
+                      <h5 class="m-0"><b>FTP Drive</b></h5>
+                      <h6 class="text-muted m-0">30Gb(Regular Plan)</h6>
+                    </div>
+                  </div>
+                  <div class="mt-25">
+                    <div class="progress" style="height: 4px;">
+                      <div class="progress-bar" role="progressbar" style="width: 35%;" aria-valuenow="25"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr class="my-4">
+      <div class="display-4 mb-3">Card</div>
+
+      <div class="table-responsive">
+        <table class="table align-middle ">
+          <tbody>
+            <tr>
+              <td class="d-flex">
+                <div>
+                  <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="user-image"
+                    class="width-40 height-40 avatar-sm rounded-circle me-2">
+                </div>
+
+                <div class="ms-2">
+                  <b>BY:Michelle Green</b>
+                  <p class="m-0 text-secondary"><b>Title</b> You either die Spongebob or you live long enough</p>
+                </div>
+              </td>
+              <td class="text-center ms-auto">
+                <div class="m-0 ms-auto text-white bg-danger rounded-5 text-center fs-6">
+                  <font size="2"> <b>Draft</b></font>
+                </div>
+              </td>
+              <td>
+                <div class="m-0 me-4 text-white bg-dark rounded-5 text-center">
+                  <font size="2"> <b> Dec 6,2020</b></font>
+                </div>
+              </td>
+              <td>
+                <button type="button" class="btn  btn-sm waves-effect text-primary">
+                  <font size="5"> <b>...</b></font>
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td class="d-flex">
+                <div>
+                  <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="user-image"
+                    class="width-40 height-40 avatar-sm rounded-circle me-2">
+                </div>
+
+                <div class="ms-2">
+                  <b>BY:Amelia Green</b>
+                  <p class="m-0 text-secondary"> <b>Title</b> You either die Spongebob or you live long enough</p>
+                </div>
+              </td>
+              <td class="text-center ms-auto">
+                <div class="m-0 ms-auto text-white bg-danger rounded-5 text-center fs-6">
+                  <font size="2"> <b>Draft</b></font>
+                </div>
+              </td>
+              <td>
+                <div class="m-0 me-4 text-white bg-dark rounded-5 text-center">
+                  <font size="2"> <b> Dec 6,2020</b></font>
+                </div>
+              </td>
+              <td>
+                <button type="button" class="btn  btn-sm waves-effect text-primary">
+                  <font size="5"> <b>...</b></font>
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td class="d-flex">
+                <div>
+                  <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="user-image"
+                    class="width-40 height-40 avatar-sm rounded-circle me-2">
+                </div>
+
+                <div class="ms-2">
+                  <b>BY:Charlotte Green</b>
+                  <p class="m-0 text-secondary"><b>Title</b> You either die Spongebob or you live long enough</p>
+                </div>
+              </td>
+              <td class="text-center ms-auto">
+                <div class="m-0 ms-auto text-white bg-danger rounded-5 text-center fs-6">
+                  <font size="2"> <b>Draft</b></font>
+                </div>
+              </td>
+              <td>
+                <div class="m-0 me-4 text-white bg-dark rounded-5 text-center">
+                  <font size="2"> <b> Dec 6,2020</b></font>
+                </div>
+              </td>
+              <td>
+                <button type="button" class="btn  btn-sm waves-effect text-primary">
+                  <font size="5"> <b>...</b></font>
+                </button>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="d-flex">
+                <div>
+                  <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="user-image"
+                    class="width-40 height-40 avatar-sm rounded-circle me-2">
+                </div>
+
+                <div class="ms-2">
+                  <b>BY:Susie Willis</b>
+                  <p class="m-0 text-secondary"><b>Title</b> You either die Spongebob or you live long enough</p>
+                </div>
+              </td>
+              <td class="text-center ms-auto">
+                <div class="m-0 ms-auto text-white bg-danger rounded-5 text-center fs-6">
+                  <font size="2"> <b>Draft</b></font>
+                </div>
+              </td>
+              <td>
+                <div class="m-0 me-4 text-white bg-dark rounded-5 text-center">
+                  <font size="2"> <b> Dec 6,2020</b></font>
+                </div>
+              </td>
+              <td>
+                <button type="button" class="btn  btn-sm waves-effect text-primary">
+                  <font size="5"> <b>...</b></font>
+                </button>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="d-flex">
+                <div>
+                  <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="user-image"
+                    class="width-40 height-40 avatar-sm rounded-circle me-2">
+                </div>
+
+                <div class="ms-2">
+                  <b>BY:Michelle Green</b>
+                  <p class="m-0 text-secondary"><b>Title</b> You either die Spongebob or you live long enough</p>
+                </div>
+              </td>
+              <td class="text-center ms-auto">
+                <div class="m-0 ms-auto text-white bg-danger rounded-5 text-center fs-6">
+                  <font size="2"> <b>Draft</b></font>
+                </div>
+              </td>
+              <td>
+                <div class="m-0 me-4 text-white bg-dark rounded-5 text-center">
+                  <font size="2"> <b> Dec 6,2020</b></font>
+                </div>
+              </td>
+              <td>
+                <button type="button" class="btn  btn-sm waves-effect text-primary">
+                  <font size="5"> <b>...</b></font>
+                </button>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="d-flex">
+                <div>
+                  <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="user-image"
+                    class="width-40 height-40 avatar-sm rounded-circle me-2">
+                </div>
+
+                <div class="ms-2">
+                  <b>BY:Jason Porter</b>
+                  <p class="m-0 text-secondary"><b>Title</b> You either die Spongebob or you live long enough</p>
+                </div>
+              </td>
+              <td class="text-center ms-auto">
+                <div class="m-0 ms-auto text-white bg-danger rounded-5 text-center fs-6">
+                  <font size="2"> <b>Draft</b></font>
+                </div>
+              </td>
+              <td>
+                <div class="m-0 me-4 text-white bg-dark rounded-5 text-center">
+                  <font size="2"> <b> Dec 6,2020</b></font>
+                </div>
+              </td>
+              <td>
+                <button type="button" class="btn  btn-sm waves-effect text-primary">
+                  <font size="5"> <b>...</b></font>
+                </button>
+              </td>
+            </tr>
+
+          </tbody>
+        </table>
+      </div>
+
+      <div class="row">
+        <div class="col-5">
+          <div class="card bg-light">
+            <div class="card-body">
+              <div class="d-flex mt-20">
+                <div class="ms-2 display-flex align-items-center justify-content-center">
+                  <i class="fas fa-folder"></i>
+                </div>
+                <h3 class="m-0 ms-4">Documentation</h3>
+                <div class="m-0 ms-auto text-white bg-secondary rounded-5 ps-2 pe-2 ">v1.0</div>
+              </div>
+
+              <div class="d-flex mt-5">
+                <div class=" mt-1 ms-2 display-flex align-items-center justify-content-center">
+                  <i class="fas fa-bars"></i>
+                </div>
+                <h3 class="m-0 ms-4 mt-4">Widgets</h3>
+                <div class=" m-0 mb-20 ms-auto mt-4 text-white bg-success rounded-5 ps-2 pe-2">50+</div>
+              </div>
+
+
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr class="my-4">
+      <div class="display-4 mb-3">Header view</div>
+
+      <div class="row">
+        <div class="col-12">
+          <div class="row">
+            <div class="d-flex align-items-center">
+              <h4 class="m-0 "><b>Top Countries</b></h4>
+              <button class="btn ms-auto">
+                <i class="fas fa-ellipsis-h"></i>
+              </button>
+            </div>
+            <div class="table-responsive">
+              <table class="table align-middle">
+                <tbody>
+                  <tr>
+                    <td>
+                      <div class="row d-flex justify-content-between">
+                        <div class="col-8">
+                          <h4 class="m-0 pb-5">USA</h4>
+                          <div class="progress height-10">
+                            <div class="progress-bar width-200" role="progressbar" aria-valuenow="25" aria-valuemin="0"
+                              aria-valuemax="100"></div>
+                          </div>
+                        </div>
+                        <div class="col-2">
+                          <p class="m-0 text-muted text-end">$6425</p>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="row d-flex justify-content-between">
+                        <div class="col-8">
+                          <h4 class="m-0 pb-5">Poland</h4>
+                          <div class="progress height-10">
+                            <div class="progress-bar width-180" role="progressbar" aria-valuenow="25" aria-valuemin="0"
+                              aria-valuemax="100"></div>
+                          </div>
+                        </div>
+                        <div class="col-2">
+                          <p class="m-0 text-muted text-end">$5582</p>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="row d-flex justify-content-between">
+                        <div class="col-8">
+                          <h4 class="m-0 pb-5">Germany</h4>
+                          <div class="progress height-10">
+                            <div class="progress-bar width-160" role="progressbar" aria-valuenow="25" aria-valuemin="0"
+                              aria-valuemax="100"></div>
+                          </div>
+                        </div>
+                        <div class="col-2">
+                          <p class="m-0 text-muted text-end">$4587</p>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="row d-flex justify-content-between">
+                        <div class="col-8">
+                          <h4 class="m-0 pb-5">Russia</h4>
+                          <div class="progress height-10">
+                            <div class="progress-bar width-140" role="progressbar" aria-valuenow="25" aria-valuemin="0"
+                              aria-valuemax="100"></div>
+                          </div>
+                        </div>
+                        <div class="col-2">
+                          <p class="m-0 text-muted text-end">$2620</p>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="row d-flex justify-content-between">
+                        <div class="col-8">
+                          <h4 class="m-0 pb-5">Australia</h4>
+                          <div class="progress height-10">
+                            <div class="progress-bar width-120" role="progressbar" aria-valuenow="25" aria-valuemin="0"
+                              aria-valuemax="100"></div>
+                          </div>
+                        </div>
+                        <div class="col-2">
+                          <p class="m-0 text-muted text-end">$1899</p>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="row d-flex justify-content-between">
+                        <div class="col-8">
+                          <h4 class="m-0 pb-5">Great Britian</h4>
+                          <div class="progress height-10">
+                            <div class="progress-bar width-100" role="progressbar" aria-valuenow="25" aria-valuemin="0"
+                              aria-valuemax="100"></div>
+                          </div>
+                        </div>
+                        <div class="col-2">
+                          <p class="m-0 text-muted text-end">$1056</p>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr class="my-4">
+      <div class="display-4 mb-3">Header view</div>
+      <div class="d-flex">
+        <div class="d-flex flex-column">
+          <h4 class="m-0 "><b>Project Overview</b></h4>
+          <p class="p-0 text-secondary">Total 15 (last update 1 hr ago)</p>
+        </div>
+        <div class="ms-auto d-flex align-items-center">
+          <div>
+            <button class="btn btn-dark">compose</button>
+          </div>
+          <div class="ml-5">
+            <button class="btn btn-dark">delete</button>
+          </div>
+        </div>
+      </div>
+
+      <hr class="my-4">
+      <div class="display-4 mb-3">Project dashboard</div>
+
+      <div class="row mb-10">
+        <div class="col-3">
+          <div class="card border rounded">
+            <div class="card-body">
+              <h6 class="m-20">Pending tasks</h6>
+              <h3 class="m-30"><b>245</b></h3>
+              <h6>Meesure How Fast...<a href="#">more</a></h6>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex">
+        <div class="d-flex flex-column">
+          <h4 class="m-0 "><b>Project Overview</b></h4>
+          <p class="p-0 text-secondary">Total 15 (last update 1 hr ago)</p>
+        </div>
+        <div class="ms-auto d-flex align-items-center">
+          <div>
+            <button class="btn btn-dark">compose</button>
+          </div>
+          <div class="ml-5">
+            <button class="btn btn-dark">delete</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="border border-1 d-flex justify-content-between width-auto">
+        <div class="d-flex py-3">
+          <p class="my-0 mx-2"><input type="checkbox" name="" id=""></p>
+          <p class="small my-0 mx-2"><i class="fas fa-star text-warning"></i></p>
+          <h6 class="m-0 my-0 mx-2"><b> Michelle Green</b></h6>
+          <p class="my-0 mx-2">
+            <span class="px-2 d-flex align-items-center justify-content-center btn btn-dark  m-0width-50 height-20 "
+              style="color: white;">business</span></p>
+          <p class="my-0 mx-2">Lorem, ipsum dolor.</p>
+        </div>
+        <div class="d-flex align-items-center">
+          <p class="text-end my-0 mx-2"><i class="fas fa-paperclip"></i></p>
+          <p class="ms-auto my-0 mx-2">13 april</p>
+        </div>
+      </div>
+
+      <hr class="my-4">
+      <div class="display-4 mb-3">Project overview</div>
+
+      <div class="row">
+        <div class="col-12">
+          <div class="d-flex align-items-center border-bottom">
+            <div class="d-flex flex-column">
+              <h4 class="m-0 "><b>Project Overview</b></h4>
+              <p class="p-0 text-secondary">Total 15 (last update 1 hr ago)</p>
+            </div>
+            <div class="d-flex align-items-center ms-auto">
+              <div class="input-group">
+                <input type="text" class="form-control height-30 border-0" placeholder=""
+                  aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <span class="input-group-text bg-white border-0" id="basic-addon2">
+                  <i class="fa fa-search"></i>
+                </span>
+              </div>
+              <button type="button"
+                class="btn btn-white d-flex align-items-center justify-content-center width-50 height-30 ms-2">Add</button>
+              <button type="button"
+                class="btn btn-success d-flex align-items-center justify-content-center width-150 height-30 ms-2">List
+                view</button>
+              <button type="button"
+                class="btn btn-light d-flex align-items-center justify-content-center width-150 height-40 ms-2">Grid
+                view</button>
+            </div>
+          </div>
+
+          <div class="table-responsive">
+            <table class="table align-middle">
+              <tbody>
+                <tr>
+                  <td>
+                    <h6 class="m-0 text-secondary"><b>Star</b></h6>
+                  </td>
+                  <td>
+                    <h6 class="m-0 text-secondary"><b>Project</b></h6>
+                  </td>
+                  <td>
+                    <h6 class="m-0 text-secondary"><b>Status</b></h6>
+                  </td>
+                  <td>
+                    <h6 class="m-0 text-secondary"><b>Tasks Completed</b></h6>
+                  </td>
+                  <td>
+                    <h6 class="m-0 text-secondary"><b>People</b></h6>
+                  </td>
+                  <td class="d-flex justify-content-end">
+                    <h6 class="m-0 text-secondary justify-content-end"><b>Actions</b></h6>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <i class="far fa-star"></i>
+                  </td>
+                  <td>
+                    <div class="d-flex align-items-center">
+                      <div class="d-flex flex-column">
+                        <h6 class="m-0 text-success"><b>Herbert C. Patton</b></h6>
+                        <small class="m-0 text-secondary">bLast Edited by:Savanah Durgan</small>
+                        <small class="m-0 text-secondary">Sunday, 12 June, 2020</small>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <button type="button"
+                      class="btn bg-success text-white d-flex align-items-center justify-content-center  btn-sm waves-effect width-60 height-30">
+                      <b>Archive</b>
+                    </button>
+                  </td>
+                  <td>
+                    <div class="progress" style="height: 1px;">
+                      <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <small class="text-dark"><b>Task Completed:56/94</b></small>
+                  </td>
+                  <td>
+                    <div style="width: 50px; height: 50px; border-radius: 50%; background-color: aquamarine;"></div>
+                  </td>
+                  <td>
+                    <div class="d-flex align-items-center justify-content-end">
+                      <button type="button"
+                        class="btn bg-light d-flex align-items-center justify-content-center  btn-sm waves-effect width-30 height-30">
+                        <i class="fas fa-cog"></i>
+                      </button>
+                    </div>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <i class="far fa-star"></i>
+                  </td>
+                  <td>
+                    <div class="d-flex align-items-center">
+                      <div class="d-flex flex-column">
+                        <h6 class="m-0 text-success"><b>Herbert C. Patton</b></h6>
+                        <small class="m-0 text-secondary">bLast Edited by:Savanah Durgan</small>
+                        <small class="m-0 text-secondary">Sunday, 12 June, 2020</small>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <button type="button"
+                      class="btn bg-success text-white d-flex align-items-center justify-content-center  btn-sm waves-effect width-60 height-30">
+                      <b>Archive</b>
+                    </button>
+                  </td>
+                  <td>
+                    <div class="progress" style="height: 1px;">
+                      <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <small class="text-dark"><b>Task Completed:56/94</b></small>
+                  </td>
+                  <td>
+                    <div style="width: 50px; height: 50px; border-radius: 50%; background-color: aquamarine;"></div>
+                  </td>
+                  <td>
+                    <div class="d-flex align-items-center justify-content-end">
+                      <button type="button"
+                        class="btn bg-light d-flex align-items-center justify-content-center  btn-sm waves-effect width-30 height-30">
+                        <i class="fas fa-cog"></i>
+                      </button>
+                    </div>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <i class="far fa-star"></i>
+                  </td>
+                  <td>
+                    <div class="d-flex align-items-center">
+                      <div class="d-flex flex-column">
+                        <h6 class="m-0 text-success"><b>Herbert C. Patton</b></h6>
+                        <small class="m-0 text-secondary">bLast Edited by:Savanah Durgan</small>
+                        <small class="m-0 text-secondary">Sunday, 12 June, 2020</small>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <button type="button"
+                      class="btn bg-success text-white d-flex align-items-center justify-content-center  btn-sm waves-effect width-60 height-30">
+                      <b>Archive</b>
+                    </button>
+                  </td>
+                  <td>
+                    <div class="progress" style="height: 1px;">
+                      <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <small class="text-dark"><b>Task Completed:56/94</b></small>
+                  </td>
+                  <td>
+                    <div style="width: 50px; height: 50px; border-radius: 50%; background-color: aquamarine;"></div>
+                  </td>
+                  <td>
+                    <div class="d-flex align-items-center justify-content-end">
+                      <button type="button"
+                        class="btn bg-light d-flex align-items-center justify-content-center  btn-sm waves-effect width-30 height-30">
+                        <i class="fas fa-cog"></i>
+                      </button>
+                    </div>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <i class="far fa-star"></i>
+                  </td>
+                  <td>
+                    <div class="d-flex align-items-center">
+                      <div class="d-flex flex-column">
+                        <h6 class="m-0 text-success"><b>Herbert C. Patton</b></h6>
+                        <small class="m-0 text-secondary">bLast Edited by:Savanah Durgan</small>
+                        <small class="m-0 text-secondary">Sunday, 12 June, 2020</small>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <button type="button"
+                      class="btn bg-success text-white d-flex align-items-center justify-content-center  btn-sm waves-effect width-60 height-30">
+                      <b>Archive</b>
+                    </button>
+                  </td>
+                  <td>
+                    <div class="progress" style="height: 1px;">
+                      <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <small class="text-dark"><b>Task Completed:56/94</b></small>
+                  </td>
+                  <td>
+                    <div style="width: 50px; height: 50px; border-radius: 50%; background-color: aquamarine;"></div>
+                  </td>
+                  <td>
+                    <div class="d-flex align-items-center justify-content-end">
+                      <button type="button"
+                        class="btn bg-light d-flex align-items-center justify-content-center  btn-sm waves-effect width-30 height-30">
+                        <i class="fas fa-cog"></i>
+                      </button>
+                    </div>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <i class="far fa-star"></i>
+                  </td>
+                  <td>
+                    <div class="d-flex align-items-center">
+                      <div class="d-flex flex-column">
+                        <h6 class="m-0 text-success"><b>Herbert C. Patton</b></h6>
+                        <small class="m-0 text-secondary">bLast Edited by:Savanah Durgan</small>
+                        <small class="m-0 text-secondary">Sunday, 12 June, 2020</small>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <button type="button"
+                      class="btn bg-success text-white d-flex align-items-center justify-content-center  btn-sm waves-effect width-60 height-30">
+                      <b>Archive</b>
+                    </button>
+                  </td>
+                  <td>
+                    <div class="progress" style="height: 1px;">
+                      <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <small class="text-dark"><b>Task Completed:56/94</b></small>
+                  </td>
+                  <td>
+                    <div style="width: 50px; height: 50px; border-radius: 50%; background-color: aquamarine;"></div>
+                  </td>
+                  <td>
+                    <div class="d-flex align-items-center justify-content-end">
+                      <button type="button"
+                        class="btn bg-light d-flex align-items-center justify-content-center  btn-sm waves-effect width-30 height-30">
+                        <i class="fas fa-cog"></i>
+                      </button>
+                    </div>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <i class="far fa-star"></i>
+                  </td>
+                  <td>
+                    <div class="d-flex align-items-center">
+                      <div class="d-flex flex-column">
+                        <h6 class="m-0 text-success"><b>Herbert C. Patton</b></h6>
+                        <small class="m-0 text-secondary">bLast Edited by:Savanah Durgan</small>
+                        <small class="m-0 text-secondary">Sunday, 12 June, 2020</small>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <button type="button"
+                      class="btn bg-success text-white d-flex align-items-center justify-content-center  btn-sm waves-effect width-60 height-30">
+                      <b>Archive</b>
+                    </button>
+                  </td>
+                  <td>
+                    <div class="progress" style="height: 1px;">
+                      <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <small class="text-dark"><b>Task Completed:56/94</b></small>
+                  </td>
+                  <td>
+                    <div style="width: 50px; height: 50px; border-radius: 50%; background-color: aquamarine;"></div>
+                  </td>
+                  <td>
+                    <div class="d-flex align-items-center justify-content-end">
+                      <button type="button"
+                        class="btn bg-light d-flex align-items-center justify-content-center  btn-sm waves-effect width-30 height-30">
+                        <i class="fas fa-cog"></i>
+                      </button>
+                    </div>
+                  </td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+
+        </div>
+      </div>
+
+      <hr class="my-4">
+      <div class="display-4 mb-3">Contact list</div>
+      <div class="row">
+        <div class="col-12">
+          <div class="d-flex align-items-center border-bottom">
+            <div class="d-flex flex-column">
+              <h4 class="m-0 "><b>Contact List</b></h4>
+              <p class="p-0 text-secondary">Total 658 (last updates 1 month ago)</p>
+            </div>
+            <div class="d-flex align-items-center ms-auto">
+              <div class="input-group">
+                <input type="text" class="form-control height-30 border-0" placeholder=""
+                  aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <span class="input-group-text bg-white border-0" id="basic-addon2">
+                  <i class="fa fa-search"></i>
+                </span>
+              </div>
+              <button type="button"
+                class="btn btn-white d-flex align-items-center justify-content-center width-50 height-30 ms-2">Add</button>
+              <button type="button"
+                class="btn btn-success d-flex align-items-center justify-content-center width-150 height-30 ms-2">List
+                view</button>
+              <button type="button"
+                class="btn btn-light d-flex align-items-center justify-content-center width-150 height-40 ms-2">Grid
+                view</button>
+            </div>
+          </div>
+          <div class="table-responsive">
+            <table class="table align-middle">
+              <tbody>
+                <tr>
+                  <td>
+                    <h6 class="m-0 text-secondary"><b>#</b></h6>
+                  </td>
+                  <td>
+                    <h6 class="m-0 text-secondary"><b>NAME</b></h6>
+                  </td>
+                  <td>
+                    <h6 class="m-0 text-secondary"><b>ADDRESS</b></h6>
+                  </td>
+                  <td>
+                    <h6 class="m-0 text-secondary"><b>EMAIL</b></h6>
+                  </td>
+                  <td>
+                    <h6 class="m-0 text-secondary"><b>MANAGE</b></h6>
+                  </td>
+                  <td></td>
+                </tr>
+
+                <tr>
+                  <td>1</td>
+                  <td>
+                    <div class="d-flex align-items-center">
+                      <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="user-image"
+                        class="width-40 height-40 avatar-sm rounded-circle me-2">
+                      <div class="d-flex flex-column">
+                        <h6 class="m-0"><b>Herbert C. Patton</b></h6>
+                        <p class="m-0 text-secondary">UI Designer</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="d-flex flex-column">
+                      <p class="m-0 text-secondary">523 Williams St, Kingsville,</p>
+                      <p class="m-0 text-secondary">TX,78363</p>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="d-flex flex-column">
+                      <p class="m-0 text-secondary">ruslanchiksaginbaev@gmail.com</p>
+                      <p class="m-0 text-secondary">99-548-46-33</p>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="d-flex flex-column">
+                      <p class="m-0 text-secondary">15 Mar 2016</p>
+                      <p class="m-0 text-secondary">10:55 AM</p>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="d-flex align-items-center justify-content-end">
+                      <button type="button"
+                        class="btn bg-light d-flex align-items-center justify-content-center  btn-sm waves-effect width-30 height-30">
+                        <i class="fas fa-search"></i>
+                      </button>
+                      <button type="button"
+                        class="btn ms-3 bg-light d-flex align-items-center justify-content-center  btn-sm waves-effect width-30 height-30">
+                        <i class="fa fa-pencil"></i>
+                      </button>
+                      <button type="button"
+                        class="btn ms-3 bg-light d-flex align-items-center justify-content-center  btn-sm waves-effect width-30 height-30">
+                        <i class="fas fa-trash"></i>
+                      </button>
+                    </div>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>1</td>
+                  <td>
+                    <div class="d-flex align-items-center">
+                      <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="user-image"
+                        class="width-40 height-40 avatar-sm rounded-circle me-2">
+                      <div class="d-flex flex-column">
+                        <h6 class="m-0"><b>Herbert C. Patton</b></h6>
+                        <p class="m-0 text-secondary">UI Designer</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="d-flex flex-column">
+                      <p class="m-0 text-secondary">523 Williams St, Kingsville,</p>
+                      <p class="m-0 text-secondary">TX,78363</p>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="d-flex flex-column">
+                      <p class="m-0 text-secondary">ruslanchiksaginbaev@gmail.com</p>
+                      <p class="m-0 text-secondary">99-548-46-33</p>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="d-flex flex-column">
+                      <p class="m-0 text-secondary">15 Mar 2016</p>
+                      <p class="m-0 text-secondary">10:55 AM</p>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="d-flex align-items-center justify-content-end">
+                      <button type="button"
+                        class="btn bg-light d-flex align-items-center justify-content-center  btn-sm waves-effect width-30 height-30">
+                        <i class="fas fa-search"></i>
+                      </button>
+                      <button type="button"
+                        class="btn ms-3 bg-light d-flex align-items-center justify-content-center  btn-sm waves-effect width-30 height-30">
+                        <i class="fa fa-pencil"></i>
+                      </button>
+                      <button type="button"
+                        class="btn ms-3 bg-light d-flex align-items-center justify-content-center  btn-sm waves-effect width-30 height-30">
+                        <i class="fas fa-trash"></i>
+                      </button>
+                    </div>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>1</td>
+                  <td>
+                    <div class="d-flex align-items-center">
+                      <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="user-image"
+                        class="width-40 height-40 avatar-sm rounded-circle me-2">
+                      <div class="d-flex flex-column">
+                        <h6 class="m-0"><b>Herbert C. Patton</b></h6>
+                        <p class="m-0 text-secondary">UI Designer</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="d-flex flex-column">
+                      <p class="m-0 text-secondary">523 Williams St, Kingsville,</p>
+                      <p class="m-0 text-secondary">TX,78363</p>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="d-flex flex-column">
+                      <p class="m-0 text-secondary">ruslanchiksaginbaev@gmail.com</p>
+                      <p class="m-0 text-secondary">99-548-46-33</p>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="d-flex flex-column">
+                      <p class="m-0 text-secondary">15 Mar 2016</p>
+                      <p class="m-0 text-secondary">10:55 AM</p>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="d-flex align-items-center justify-content-end">
+                      <button type="button"
+                        class="btn bg-light d-flex align-items-center justify-content-center  btn-sm waves-effect width-30 height-30">
+                        <i class="fas fa-search"></i>
+                      </button>
+                      <button type="button"
+                        class="btn ms-3 bg-light d-flex align-items-center justify-content-center  btn-sm waves-effect width-30 height-30">
+                        <i class="fa fa-pencil"></i>
+                      </button>
+                      <button type="button"
+                        class="btn ms-3 bg-light d-flex align-items-center justify-content-center  btn-sm waves-effect width-30 height-30">
+                        <i class="fas fa-trash"></i>
+                      </button>
+                    </div>
+                  </td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <hr class="my-4">
+      <div class="display-4 mb-3">Banner</div>
+      <div class="row">
+        <div class="col-12">
+          <div class="bg-light rounded-30 pt-80 pl-40 pr-40 pb-80">
+            <div class="row">
+              <div class="col-6">
+                <div class="display-4">Welcome back <span class="bg-secondary p-1">Courtney</span></div>
+                <h6 class="mt-30 text-secondary">
+                  <b>
+                    Nostrum veniam dolorum sequi et suscipit accusantium ipsam provident. Harum, distinctio!
+                  </b>
+                </h6>
+              </div>
+              <div class="col-6"></div>
+            </div>
+          </div>
+          <div class="mt-20 row">
+            <div class="col-6">
+              <div class="d-flex">
+                <h3 class="m-0">Last freebess sent</h3>
+                <a class="ms-auto" href="">See all</a>
+              </div>
+
+              <div class="row">
+                <div class="col-6">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="d-flex align-items-center">
+                        <div
+                          class="display-flex align-items-center justify-content-center width-50 height-50 bg-warning">
+                          <i class="fas fa-bars"></i>
+                        </div>
+                        <div class="d-flex flex-column ml-10">
+                          <h6 class="m-0 text-secondary">Team</h6>
+                          <h5 class="m-0">Marketing</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6"></div>
+              </div>
+            </div>
+            <div class="col-6"></div>
+          </div>
+
+
+        </div>
+      </div>
+
+      <div class="display-1 mt-40">UI / Widget elements</div>
+      <h3>Core web elements</h3>
+      <p class="text-primary"><b>Wing</b> starter kit</p>
+      <hr class="mt-50">
+
+      <!-- Colors -->
+      <div class="row mt-50">
+
+
+        <div class="col-12">
+          <div class="display-4 mb-3">Colors</div>
+          <div class="rounded-circle display-inline-block rounded-10 p-3 bg-primary">bg-primary</div>
+          <div class="rounded-circle display-inline-block rounded-10 p-3 bg-secondary">bg-secondary</div>
+          <div class="rounded-circle display-inline-block rounded-10 p-3 bg-success">bg-success</div>
+          <div class="rounded-circle display-inline-block rounded-10 p-3 bg-info">bg-info</div>
+          <div class="rounded-circle display-inline-block rounded-10 p-3 bg-warning">bg-warning</div>
+          <div class="rounded-circle display-inline-block rounded-10 p-3 bg-danger">bg-danger</div>
+          <div class="rounded-circle display-inline-block rounded-10 p-3 bg-light">bg-light</div>
+          <div class="rounded-circle display-inline-block rounded-10 p-3 bg-dark">bg-dark</div>
+        </div>
+
+        <div class="my-4"></div>
+
+        <!-- Alerts -->
+        <div class="col-12">
+          <div class="display-4 mb-3">Alerts</div>
+          <div class="alert alert-primary" role="alert">
+            A simple primary alert—check it out!
+          </div>
+        </div>
+
+        <div class="my-4"></div>
+
+        <!-- Avatars -->
+        <div class="col-12">
+          <div class="display-4 mb-3">Avatars/Images</div>
+          <img class="width-100 height-100" src="https://randomuser.me/api/portraits/women/2.jpg" alt="User image">
+          <img class="width-100 height-100 rounded-20" src="https://randomuser.me/api/portraits/women/2.jpg"
+            alt="User image">
+          <img class="width-100 height-100 rounded-40" src="https://randomuser.me/api/portraits/women/2.jpg"
+            alt="User image">
+          <img class="width-100 height-100 rounded-circle" src="https://randomuser.me/api/portraits/women/2.jpg"
+            alt="User image">
+          <hr>
+          <div class="row">
+            <div class="col-4">
+              <img class="w-100 rounded"
+                src="https://images.unsplash.com/photo-1624147784944-d0c965ebed49?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
+                alt="">
+            </div>
+            <div class="col-4">
+              <img class="w-100 rounded-20"
+                src="https://images.unsplash.com/photo-1503342394128-c104d54dba01?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTExfHxnaXJsfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
+                alt="">
+            </div>
+            <div class="col-4">
+              <img class="w-100 rounded-60"
+                src="https://images.unsplash.com/photo-1608634603310-1702322d8575?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTQzfHxnaXJsfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
+                alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="my-4"></div>
+
+        <!-- Buttons -->
+        <div class="col-12">
+          <div class="display-4 mb-3">Buttons</div>
+          <button type="button" class="btn btn-primary">Primary</button>
+          <button type="button" class="btn btn-secondary">Secondary</button>
+          <button type="button" class="btn btn-success">Success</button>
+          <button type="button" class="btn btn-danger">Danger</button>
+          <button type="button" class="btn btn-warning">Warning</button>
+          <button type="button" class="btn btn-info">Info</button>
+          <button type="button" class="btn btn-light">Light</button>
+          <button type="button" class="btn btn-dark">Dark</button>
+          <button type="button" class="btn btn-link">Link</button>
+        </div>
+
+        <div class="my-4"></div>
+
+        <!-- Cards -->
+        <div class="col-12">
+          <div class="display-4 mb-3">Cards</div>
+          <div class="row">
+            <div class="col-4">
+              <div class="card">
+                <img
+                  src="https://images.unsplash.com/photo-1521245585918-35fd32bf376f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fG1pYW1pfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
+                  class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's
+                    content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card">
+                <img
+                  src="https://images.unsplash.com/photo-1521245585918-35fd32bf376f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fG1pYW1pfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
+                  class="rounded-40 card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's
+                    content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card bg-light text-black">
+                <img
+                  src="https://images.unsplash.com/photo-1459156212016-c812468e2115?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y2FjdHVzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
+                  class="rounded-10 card-img" alt="...">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional
+                    content. This content is a little bit longer.</p>
+                  <p class="card-text">Last updated 3 mins ago</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card bg-dark text-white">
+                <img
+                  src="https://images.unsplash.com/photo-1621659911279-b08ce9ff421f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHdhdGVybWVsb258ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
+                  class="card-img rounded-20" alt="...">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional
+                    content. This content is a little bit longer.</p>
+                  <p class="card-text">Last updated 3 mins ago</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-8">
+              <div class="card">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img class="w-100"
+                      src="https://images.unsplash.com/photo-1533848052694-c716c6530f9c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTAxfHxjb2ZmZWV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
+                      alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="my-4"></div>
+
+        <!-- Widgets -->
+        <div class="col-12">
+          <div class="display-4 mb-3">Widget Cards</div>
+          <div class="row">
+            <div class="col-4">
+              <div class="card border p-3 rounded">
+                <div class="d-flex align-items-center">
+                  <div class="d-flex flex-column">
+                    <h5 class="m-0"><b>2,510</b></h5>
+                    <h6 class="text-muted m-0">Total leads</h6>
+                  </div>
+                  <div class="ms-auto display-4">27%</div>
+                </div>
+                <div class="mt-25">
+                  <div class="progress" style="height: 5px;">
+                    <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25"
+                      aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card border p-3 rounded">
+                <div class="d-flex align-items-center flex-column">
+                  <h5 class="m-0">Income status</h5>
+                  <div class="mt-20 mb-20 display-5">$2,455</div>
+                </div>
+                <div class="d-flex mt-25">
+                  <div class="badge bg-success">+19%</div>
+                  <small class="ml-5 text-secondary">Last year</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card border p-3 rounded">
+                <div class="d-flex align-items-center">
+                  <div class="d-flex flex-column">
+                    <h5 class="m-0"><b>2,510</b></h5>
+                    <h6 class="text-muted m-0">Total leads</h6>
+                  </div>
+                  <div class="ms-auto">
+                    <div
+                      class="d-flex align-items-center justify-content-center h4 width-50 height-50 bg-primary rounded-circle">
+                      <i class="fas fa-shopping-basket"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="mt-25">
+                  <div class="progress" style="height: 5px;">
+                    <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25"
+                      aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="my-4"></div>
+
+        <div class="col-12">
+          <div class="display-4 mb-3">Lists/Tables</div>
+          <div class="table-responsive">
+            <table class="table align-middle">
+              <tbody>
+                <tr>
+                  <td>
+                    <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="user-image"
+                      class="width-40 height-40 avatar-sm rounded-circle me-2">
+                    Herbert C. Patton
+                  </td>
+                  <td><i class="text-success fas fa-circle"></i> Confirm
+                  </td>
+                  <td>
+                    $14,584
+                    <p class="m-0 text-muted font-size-14">Amount</p>
+                  </td>
+                  <td>
+                    5/12/2016
+                    <p class="m-0 text-muted font-size-14">Date</p>
+                  </td>
+                  <td>
+                    <button type="button" class="btn btn-secondary btn-sm waves-effect">Edit</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="https://randomuser.me/api/portraits/women/2.jpg" alt="user-image"
+                      class="width-40 height-40 avatar-sm rounded-circle me-2">
+                    Herbert C. Patton
+                  </td>
+                  <td><i class="text-danger fas fa-circle"></i> Declined
+                  </td>
+                  <td>
+                    $14,584
+                    <p class="m-0 text-muted font-size-14">Amount</p>
+                  </td>
+                  <td>
+                    5/12/2016
+                    <p class="m-0 text-muted font-size-14">Date</p>
+                  </td>
+                  <td>
+                    <button type="button" class="btn btn-secondary btn-sm waves-effect">Edit</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="https://randomuser.me/api/portraits/women/9.jpg" alt="user-image"
+                      class="width-40 height-40 avatar-sm rounded-circle me-2">
+                    Herbert C. Patton
+                  </td>
+                  <td><i class="text-warning fas fa-circle"></i> Pending
+                  </td>
+                  <td>
+                    $14,584
+                    <p class="m-0 text-muted font-size-14">Amount</p>
+                  </td>
+                  <td>
+                    5/12/2016
+                    <p class="m-0 text-muted font-size-14">Date</p>
+                  </td>
+                  <td>
+                    <button type="button" class="btn btn-secondary btn-sm waves-effect">Edit</button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <hr>
+          <div class="table-responsive">
+            <table class="table align-middle">
+              <tbody>
+                <tr>
+                  <td>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                        <i class="far fa-star"></i>
+                      </label>
+                    </div>
+                  </td>
+                  <td class="width-200">
+                    Peter, me(3)
+                  </td>
+                  <td>
+                    Trip home from Colombo has been arranged, then Jenna will come get me from Stockholm. :)
+                  </td>
+                  <td>
+                    5/12/2016
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                        <i class="far fa-star"></i>
+                      </label>
+                    </div>
+                  </td>
+                  <td class="width-200">
+                    Peter, me(3)
+                  </td>
+                  <td>
+                    Trip home from Colombo has been arranged, then Jenna will come get me from Stockholm. :)
+                  </td>
+                  <td>
+                    5/12/2016
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                        <i class="far fa-star"></i>
+                      </label>
+                    </div>
+                  </td>
+                  <td class="width-200">
+                    Peter, me(3)
+                  </td>
+                  <td>
+                    Trip home from Colombo has been arranged, then Jenna will come get me from Stockholm. :)
+                  </td>
+                  <td>
+                    5/12/2016
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="my-4"></div>
+
+      <div class="col-12">
+        <div class="display-4 mb-3">Forms</div>
+        <div class="row">
+          <div class="col-5">
+            <div class="card border p-5 rounded">
+              <h4>Welcome Back !</h4>
+              <p>Sign in to continue to Admiria.</p>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <div class="d-flex align-items-center justify-content-between">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Remember me
+                  </label>
+                </div>
+                <button class="btn btn-primary">Sign in</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="my-4"></div>
+
+
+    </div>
+
 </body>
+
 </html>
